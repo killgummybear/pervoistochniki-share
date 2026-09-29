@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Доказать, что маркетинг приносит деньги — Первоисточники</title>
+<meta name="description" content="Как доказать окупаемость маркетинга и обосновать бюджет цифрами: измерение, инкрементальность, LTV и юнит-экономика на доказательной базе.">
+<!-- Страница для превью ссылок в соцсетях. Основной сайт — https://pervoistochniki.ru/okupaemost.html.
+     Роботы соцсетей читают теги и обложку отсюда; человек сразу переходит на основной сайт. -->
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Первоисточники">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Доказать, что маркетинг приносит деньги — Первоисточники">
+<meta property="og:description" content="Как доказать окупаемость маркетинга и обосновать бюджет цифрами: измерение, инкрементальность, LTV и юнит-экономика на доказательной базе.">
+<meta property="og:url" content="https://share.pervoistochniki.ru/okupaemost">
+<meta property="og:image" content="https://share.pervoistochniki.ru/og-cover-2026-09.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Доказательный и не очень маркетинг — курс «Первоисточники»">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Доказать, что маркетинг приносит деньги — Первоисточники">
+<meta name="twitter:description" content="Как доказать окупаемость маркетинга и обосновать бюджет цифрами: измерение, инкрементальность, LTV и юнит-экономика на доказательной базе.">
+<meta name="twitter:image" content="https://share.pervoistochniki.ru/og-cover-2026-09.png">
+<style>
+  :root{color-scheme:light dark}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;background:#FAFAF7;color:#17181C;font:18px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+  main{padding:24px;text-align:center;max-width:36rem}
+  a{color:#17181C;font-weight:600;text-decoration-color:#B5F500;text-decoration-thickness:3px;text-underline-offset:4px}
+  @media (prefers-color-scheme:dark){body{background:#16151A;color:#F4F3F1}a{color:#F4F3F1}}
+</style>
+</head>
+<body>
+<main>
+  <p>Открываем сайт курса…</p>
+  <p><a id="go" href="https://pervoistochniki.ru/okupaemost.html">Доказать, что маркетинг приносит деньги — Первоисточники</a></p>
+</main>
+<script>
+(function () {
+  // Переход на основной сайт. Метки источника добавляем, только если их нет в ссылке:
+  // после перехода через эту страницу Метрика иначе увидела бы источником её, а не соцсеть.
+  var target = "https://pervoistochniki.ru/okupaemost.html";
+  var q = location.search;
+  if (!/[?&]utm_source=/.test(q)) {
+    var src = "";
+    try { src = new URL(document.referrer).hostname.replace(/^(www|l|lm|m)\./, ""); } catch (e) {}
+    var extra = "utm_source=" + encodeURIComponent(src || "share") + "&utm_medium=social";
+    q = q ? q + "&" + extra : "?" + extra;
+  }
+  var url = target + q + location.hash;
+  document.getElementById("go").href = url;
+  location.replace(url);
+})();
+</script>
+</body>
+</html>
